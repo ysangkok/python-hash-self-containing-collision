@@ -17,7 +17,7 @@ def matches():
 
 if __name__ == "__main__":
   global block
-  block = int(sys.argv[1])
+  block = int(sys.argv[1]) # 0-3
 
   print("block", block)
   res = []
